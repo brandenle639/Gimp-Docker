@@ -16,3 +16,5 @@ Replace {Container Name} with the name you want to mark the container as
 I don't own the Gimp packages
 
 To set gui connection on host: xhost +
+
+I don't own any of the install packages
