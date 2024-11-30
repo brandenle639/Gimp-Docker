@@ -1,10 +1,10 @@
 # Gimp-Docker
 Gimp Docker container built off "Docker Application Base"
 
-# To Build:
+# To Build
 docker build -it gimp:{Version You Want} {Path of the Docker File} --no-cache
 
-# To Run:
+# To Run
 docker run --rm \
     --name=gimp \
     -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
@@ -12,3 +12,5 @@ docker run --rm \
 
 # Notes
 I don't own the Gimp packages
+
+To set gui connection on host: xhost +
