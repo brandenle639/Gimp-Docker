@@ -2,7 +2,7 @@
 Gimp Docker container built off "Docker Application Base"
 
 # To Build
-docker build -it gimp:{Version You Want} {Path of the Docker File} --no-cache
+docker build -t gimp:{Version You Want} {Path of the Docker File} --no-cache
 
 # To Run
 docker run --rm \
